@@ -3,7 +3,7 @@ from operator import itemgetter
 
 
 url="https://hacker-news.firebaseio.com/v0/"
-url+="topstories.json" # Questo link permette di accere alle stories di hackernews
+url+="topstories.json" # Questo link permette di accedere alle stories di hackernews
 # situate in prima pagina
 
 # Ora creo la variabile risposta HTTP (r) in cui con il metodo get() del modulo requests
