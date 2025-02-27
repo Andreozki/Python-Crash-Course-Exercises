@@ -2,7 +2,7 @@ import requests
 import plotly.express as px
 
 url="https://api.github.com/search/repositories"
-url+=("?q=language:haskell+sort:stars+stars:>10000")
+url+="?q=language:haskell+sort:stars+stars:>10000" # Basta cambiare la chiamata del language
 
 intestazioni={"Accept":"application/vnd.github.v3+json"}
 r=requests.get(url,headers=intestazioni)

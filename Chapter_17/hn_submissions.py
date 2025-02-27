@@ -30,7 +30,7 @@ for submission_id in submission_ids[:5]:
     # Creo un nuovo dizionario per ogni articolo
     submission_dict={
         "title":response_dict["title"],
-        "hn_link":f"https://news.ycombinator.com/item?id={submission_id}",
+        "hn_link":f"href=https://news.ycombinator.com/item?id={submission_id}",
         "comments":response_dict["descendants"],
     }
     # Inserisco tutti i dizionari nella lista (che diventerà una lista di
