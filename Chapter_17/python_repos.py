@@ -6,7 +6,7 @@ url="https://api.github.com/search/repositories"
 url+="?q=language:python+sort:stars+stars:>10000" # Spezzato in due per chiarezza
 
 # La prossima linea di codice definisce un dizionario Python chiamato intestazioni
-# che verrà utilizzato come header http nella richiesta API. "accept" è un header
+# che verrà utilizzato come header http nella richiesta API. "Accept" è un header
 # HTTP che indica il tipo di contenuto che il client accetta in risposta, mentre
 # "application/vnd.github.v3+json" significa che si vuole ricevere una risposta in
 # formato JSON dalla GitHub API v3
